@@ -1,0 +1,118 @@
+/* First Container */
+
+.first-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 5px;
+    height: 500px;
+    width: 99%;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    width: 50%;
+}
+
+.first-text .button-room {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 350px;
+    margin: 60px;
+    border-radius: 35px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+  
+.btn a :hover{
+    text-decoration: none;
+    color: white;
+}
+  
+.first-text .button-room button {
+    background-color: #afa791;
+    border-radius: 35px;
+    color: #000000;
+    width: 120px;
+}
+  
+.first-text .button-room button:hover {
+    background-color: rgb(49, 49, 49);
+    border-radius: 35px;
+    color: #efefef;
+    cursor: pointer;
+}
+  
+.first-text .button-room p {
+    margin: 15px;
+}
+  
+
+/* Second Container */
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 5px;
+    height: 400px;
+    width: 90%;
+}
+
+.second-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    width: 50%;
+    padding: 50px;
+}
+
+.second-text .button-room {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    margin: 70px;
+}
+
+.second-text .button-rank button {
+    background-color: #afa791;
+    border-radius: 35px;
+    color: #000000;
+    width: 120px;
+}
+
+.second-text .button-rank button:hover {
+    background-color: rgb(49, 49, 49);
+    border-radius: 35px;
+    color: #efefef;
+    cursor: pointer;
+}
+
+.second-text .button-rank p {
+    margin: 15px;
+}
