@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.img-logo {
+    width: 50px;
+    height: 200px;
+    margin-bottom: 600px;
+}
+
+.registar-container {
+    width: 400px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #afa791;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.registar-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+form {
+    margin: 1rem auto;
+    padding: 4rem;
+}
+
+.field {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.field input:focus {
+    border: 1px solid #6b705c;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+select:focus {
+    border: 1px solid #6b705c;
+}
+
+.field button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff;
+    color: #1d1d1d;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+
+.login-link a {
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #1d1d1d;
+}
