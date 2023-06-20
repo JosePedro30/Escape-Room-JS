@@ -71,7 +71,7 @@ export function criarUtilizador(id, nome, email, password, dataNascimento, gener
         tipo = "utilizador";
     }
     utilizadores.push(new Utilizador(gerarId(id), nome, email, password, dataNascimento, genero, tipo));
-    localStorage.utilizador = JSON.stringify(utilizador);
+    localStorage.utilizador = JSON.stringify(utilizadores);
 }
 
 // Login
