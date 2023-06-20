@@ -31,7 +31,7 @@ export class Utilizador {
 export let utilizadores = []
 
 // LocalStorage - Admin
-export function admin() {
+export function init() {
     utilizadores = localStorage.utilizadores ? JSON.parse(localStorage.utilizadores) : [
         {
             id: 1,

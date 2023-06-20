@@ -1,6 +1,6 @@
 import * as utilizador from "../../models/utilizador.js";
 
-utilizador.admin();
+utilizador.init();
 navBar();
 
 function navBar() {

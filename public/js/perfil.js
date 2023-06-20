@@ -16,7 +16,7 @@ const niveis = document.querySelector("niveis");
 const pontos = document.querySelector("pontos");
 const picture = document.querySelector("picture");
 
-utilizador.admin();
+utilizador.init();
 mostrarPerfil();
 
 function mostrarPerfil() {

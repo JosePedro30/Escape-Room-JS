@@ -1,6 +1,6 @@
 import * as utilizador from "../../models/utilizador.js";
 
-utilizador.admin();
+utilizador.init();
 
 // Login
 // Ao fazer login tem que obdecer à navbar.js
