@@ -26,7 +26,7 @@ function registar() {
     alert("Utilizador registado com sucesso!");
 
     // Ao registar, redireciona para a página de login
-    window.location = "../../views/login.html";
+    window.location = "../html/login.html";
 }
 
 // Evento
