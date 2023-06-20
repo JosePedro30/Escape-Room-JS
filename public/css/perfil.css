@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    height: 50%;
+    margin: 0;
+}
+  
+.container {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 50px;
+    top: 30px;
+    left: 500px;
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container-2, .container-3, .container-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome, .email, .idade, .genero, .niveis, .pontos {
+    flex-basis: 50%;
+    padding: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.editPerfil {
+    align-self: flex-end;
+    color: black;
+    border-radius: 20px;
+    background-color: #afa791;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.adminMenu {
+    align-self: flex-end;
+    color: black;
+    border-radius: 20px;
+    background-color: #afa791;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: -40px;
+}
